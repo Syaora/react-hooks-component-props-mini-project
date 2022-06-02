@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-import About from "../components/About";
+import About from "../components/About.js";
 
 test("renders a <aside> element", () => {
   const { container } = render(<About />);
